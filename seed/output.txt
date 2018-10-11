@@ -1,0 +1,16 @@
+DROP DATABASE
+CREATE DATABASE
+You are now connected to database "female_leads_test" as user "raphaellagordon".
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 3
+INSERT 0 7
+INSERT 0 3
+ votes 
+-------
+     0
+     0
+     0
+(3 rows)
+

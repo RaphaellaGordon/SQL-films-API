@@ -1,0 +1,24 @@
+{
+  "name": "sql-female-leads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "psql -f seed/seed.test.sql && mocha spec --exit",
+    "seed": "psql -f seed/seed.sql",
+    "start": "node listen.js",
+    "dev": "nodemon listen.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "pg-promise": "^8.4.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "supertest": "^3.3.0"
+  }
+}
